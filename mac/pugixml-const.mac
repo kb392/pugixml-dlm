@@ -1,0 +1,17 @@
+const PUGIXML_STATUS_OK                   =  0; // No error
+const PUGIXML_STATUS_FILE_NOT_FOUND       =  1; // File was not found during load_file()
+const PUGIXML_STATUS_IO_ERROR             =  2; // Error reading from file/stream
+const PUGIXML_STATUS_OUT_OF_MEMORY        =  3; // Could not allocate memory
+const PUGIXML_STATUS_INTERNAL_ERROR       =  4; // Internal error occurred
+const PUGIXML_STATUS_UNRECOGNIZED_TAG     =  5; // Parser could not determine tag type
+const PUGIXML_STATUS_BAD_PI               =  6; // Parsing error occurred while parsing document declaration/processing instruction
+const PUGIXML_STATUS_BAD_COMMENT          =  7; // Parsing error occurred while parsing comment
+const PUGIXML_STATUS_BAD_CDATA            =  8; // Parsing error occurred while parsing CDATA section
+const PUGIXML_STATUS_BAD_DOCTYPE          =  9; // Parsing error occurred while parsing document type declaration
+const PUGIXML_STATUS_BAD_PCDATA           = 10; // Parsing error occurred while parsing PCDATA section
+const PUGIXML_STATUS_BAD_START_ELEMENT    = 11; // Parsing error occurred while parsing start element tag
+const PUGIXML_STATUS_BAD_ATTRIBUTE        = 12; // Parsing error occurred while parsing element attribute
+const PUGIXML_STATUS_BAD_END_ELEMENT      = 13; // Parsing error occurred while parsing end element tag
+const PUGIXML_STATUS_END_ELEMENT_MISMATCH = 14; // There was a mismatch of start-end tags (closing tag had incorrect name, some tag was not closed or there was an excessive closing tag)
+const PUGIXML_STATUS_APPEND_INVALID_ROOT  = 15; // Unable to append nodes since root type is not node_element or node_document (exclusive to xml_node::append_buffer)
+const PUGIXML_STATUS_NO_DOCUMENT_ELEMENT  = 16;	// Parsing resulted in a document without element nodes
