@@ -7,5 +7,6 @@
 !mac/*.d32
 !mac/hello.txt
 !*.cpp
+!*.hpp
 !readme.utf8.txt
 mac/*.nogit.mac
